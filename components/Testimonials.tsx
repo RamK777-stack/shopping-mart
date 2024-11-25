@@ -89,7 +89,7 @@ export default function Testimonials() {
                       )}
                     </div>
                     <p className="text-muted-foreground text-sm leading-relaxed flex-grow overflow-auto">
-                      "{testimonial.text}"
+                      {testimonial.text}
                     </p>
                   </CardContent>
                 </Card>

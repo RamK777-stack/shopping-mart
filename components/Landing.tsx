@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SalesHeader from "./common/SalesHeader";
 import Header from "./common/Header";
 import HeroSection from "./HeroSection";

@@ -1,5 +1,4 @@
 import React from 'react'
-import ProductCard from './ProductCard';
 import { Mail } from 'lucide-react';
 
 export default function ContactUs() {
