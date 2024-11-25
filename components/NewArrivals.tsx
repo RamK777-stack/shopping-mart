@@ -42,7 +42,7 @@ export default function NewArrivals() {
     <section className='mt-12 text-center'>
       <h3 className='text-2xl text-center font-extrabold'>NEW ARRIVALS</h3>
       <div className="mt-10 px-4 sm:px-16">
-        <div className="flex space-x-5 overflow-x-auto overflow-y-hidden scrollbar-hide w-full">
+        <div className="flex lg:justify-center space-x-5 overflow-x-auto overflow-y-hidden scrollbar-hide w-full">
           {newArrivals.map((product, index) => (
             <div key={index} className="flex-shrink-0">
               <ProductCard product={product} />
