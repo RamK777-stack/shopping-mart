@@ -8,6 +8,7 @@ import BrowseByStyle from "./BrowseByStyle";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import Footer from "./common/Footer";
+import TestimonialsMarquee from "./TestimonialsMarquee";
 
 export default function Landing() {
     return (
@@ -19,7 +20,7 @@ export default function Landing() {
             <NewArrivals />
             <TopSelling />
             <BrowseByStyle />
-            <Testimonials />
+            <TestimonialsMarquee />
             <ContactUs />
             <Footer />
         </div>
