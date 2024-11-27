@@ -62,7 +62,7 @@ export default function Footer() {
         <div className='border-b-2 border-gray-200'></div>
       </div>
 
-      <div className='flex flex-col lg:flex-row justify-between space-y-5 px-3 lg:px-5'>
+      <div className='flex flex-col lg:flex-row justify-between space-y-5 mt-5 px-3 lg:px-5'>
         <p className="text-sm text-gray-500 self-center">
           &copy; {new Date().getFullYear()} Shop.co. All rights reserved.
         </p>
