@@ -20,7 +20,7 @@ export default function ContactUs() {
               className="h-12 w-full rounded-full bg-white pl-10 pr-4 text-sm outline-none ring-1 ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-primary"
             />
           </div>
-          <button className="h-12 w-full rounded-full bg-white pr-4 text-sm outline-none ring-1 ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-primary">
+          <button className="h-12 w-full rounded-full bg-white hover:bg-gray-200 transition-colors duration-300 pr-4 outline-none ring-1 ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-primary">
             Subscribe to Newsletter
           </button>
         </div>
