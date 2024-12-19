@@ -14,6 +14,7 @@ type PageParams = {
 
 export default function Page({ params }: PageParams) {
     const [category, subcategory, name, id] = params.slug || [];
+    console.log(name, id)
     const [selectedImage, setSelectedImage] = useState("/images/tshirt-3.jpg");
     const [quantity, setQuantity] = useState(1);
 
