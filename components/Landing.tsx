@@ -11,9 +11,7 @@ import Footer from "./common/Footer";
 
 export default function Landing() {
     return (
-        <div className="flex flex-col min-h-screen overflow-x-hidden">
-            <SalesHeader />
-            <Header />
+        <>
             <HeroSection />
             <BrandBar />
             <NewArrivals />
@@ -21,7 +19,6 @@ export default function Landing() {
             <BrowseByStyle />
             <Testimonials />
             <ContactUs />
-            <Footer />
-        </div>
+        </>
     );
 }

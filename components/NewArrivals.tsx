@@ -5,36 +5,48 @@ export default function NewArrivals() {
 
   const newArrivals = [
     {
+      id: 1,
       name: 'T-shirt with Tape Details',
       image: '/images/NewArrivals/product-a.png',
       currency: '$',
       price: 120,
-      rating: 3.5
+      rating: 3.5,
+      category: 'men',
+      subcategory: 'tshirt'
     },
     {
+      id: 2,
       name: 'Skinny Fit Jeans',
       image: '/images/NewArrivals/product-b.png',
       currency: '$',
       price: 240,
       original_price: 260,
       discount_percentage: -27,
-      rating: 3.5
+      rating: 3.5,
+      category: 'men',
+      subcategory: 'jeans'
     },
     {
+      id: 3,
       name: 'Checkered Shirt',
       image: '/images/NewArrivals/product-c.png',
       currency: '$',
       price: 180,
-      rating: 4.5
+      rating: 4.5,
+      category: 'men',
+      subcategory: 'shirts'
     },
     {
+      id: 4,
       name: 'Sleeve Striped T-shirt',
       image: '/images/NewArrivals/product-d.png',
       currency: '$',
       price: 130,
       original_price: 160,
       discount_percentage: -30,
-      rating: 4
+      rating: 4,
+      category: 'men',
+      subcategory: 'tshirt'
     }
   ];
 
